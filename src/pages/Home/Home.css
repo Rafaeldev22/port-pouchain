@@ -54,7 +54,9 @@ img{
         display: flex;
         align-items: center;
         border: solid red;
-        background-color: 100dvw;
+        width: 100dvw;
+        height: 100dvh;
+
     }
 
     img{
