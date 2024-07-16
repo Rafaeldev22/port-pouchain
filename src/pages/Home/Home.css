@@ -54,12 +54,13 @@ img{
         display: flex;
         align-items: center;
         width: 100dvw;
-        height: 99vh;
+        height: 100vh;
+        overflow: hidden;
 
     }
 
     img{
-        width: 80vw;
+        width: 90%;
         margin-top:10%;
     }
 
