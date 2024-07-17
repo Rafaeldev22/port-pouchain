@@ -3,4 +3,17 @@
 
     width: 100dvw;
     height: 100dvh;
+
+    overflow-x: hidden;
+}
+
+.content-card{
+    /* border: solid red; */
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 5%;
+    padding: 6% 2% ;
 }
