@@ -92,5 +92,6 @@
     .card{
         margin-top: 5%;
         max-width: 75vw;
+        height: 60vh;
     }
 }
