@@ -4,11 +4,11 @@ const Card=({ imageSrc, titulo, paragrafo, descricao, link})=> {
     return(
         <div className='card'>
 
-            <img src={imageSrc} alt="img-papel" />
+            <img src={imageSrc} alt="img-papel" className='image-logo-card' />
             <div className='box'>
-                <h3>{titulo}</h3>
-                <p>{descricao}</p>
-                <p>{paragrafo}</p>
+                <h3 className='titulo'>{titulo}</h3>
+                <p className='p-1'>{descricao}</p>
+                <p className='p-2'>{paragrafo}</p>
             </div>
             <a href={link}>Veja qual marca usa.</a>
 

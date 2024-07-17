@@ -1,8 +1,8 @@
 .content{
     background-color: #000;
 
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
 
     overflow-x: hidden;
 }
@@ -17,26 +17,43 @@
     padding: 6% 2% ;
 }
 
-@media (max-width: 1024px){
-    /* .content-card{
-        gap: 3rem;
-    } */
+@media(max-width: 2560px){
+    .content-card{
+        margin-top: 18vh;
+    }
+}
 
+@media(max-width: 1920px){
+    .card{
+        margin-top: -7%;
+    }
+}
+
+@media (max-width: 1024px){
+    .content-card{
+        margin-top: 18vh;
+    }
+}
+
+
+@media (max-width: 768px){
+    .content-card{
+        margin-top: 25vh;
+        display: flex;
+        gap: 2rem;
+        padding: 2%;
+        margin-bottom: 2vh;
+    }
 }
 
 @media (max-width: 425px){
 
     .content-card{
+        padding: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 30%;
+
     }
 }
-
-/* @media (max-width: 768px){
-    .content-card{
-        display: flex;
-        gap: 3rem;
-    }
-} */
