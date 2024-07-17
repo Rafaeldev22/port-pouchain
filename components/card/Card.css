@@ -67,3 +67,30 @@
 }
 
 
+@media (max-width: 1440px){
+    .card{
+        margin-top: 2%;
+        height: 53vh;
+    }
+}
+
+@media (max-width: 1024px){
+    .card{
+        margin-top: 4rem;
+        height: 48vh;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        max-width: 40vw;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 425px){
+    .card{
+        margin-top: 5%;
+        max-width: 75vw;
+    }
+}
