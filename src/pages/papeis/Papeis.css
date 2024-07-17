@@ -8,9 +8,8 @@
 }
 
 .content-card{
-    /* border: solid red; */
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -19,9 +18,9 @@
 }
 
 @media (max-width: 1024px){
-    .content-card{
+    /* .content-card{
         gap: 3rem;
-    }
+    } */
 
 }
 

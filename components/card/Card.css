@@ -1,6 +1,6 @@
 .card{
     border: 2px solid #e4c23d;
-    max-width: 26vw;
+    width: 20vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -66,32 +66,58 @@
     gap: 0.5rem;
 }
 
-
 @media (max-width: 1440px){
     .card{
-        margin-top: 2%;
-        height: 53vh;
+        border: solid white;
+        margin-top: 4rem;
+        width: 34vw;
+        height: 70vh;
     }
+}
+
+@media (max-width: 1366px){
+
+    .card{
+        border: solid green;
+        margin-top: -2%;
+        margin-bottom: 5rem;
+        width: 27vw;
+        height: 85vh;
+    }
+
 }
 
 @media (max-width: 1024px){
     .card{
+        border: solid blue;
         margin-top: 4rem;
-        height: 48vh;
+        width: 34vw;
+        height: 60vh;
     }
 }
 
 @media (max-width: 768px){
     .card{
-        max-width: 40vw;
-        margin-top: 10%;
+        border: solid red;
+        width: 40vw;
+        height: 60vh;
+
     }
 }
 
+
 @media (max-width: 425px){
     .card{
+        border: solid yellow;
         margin-top: 5%;
-        max-width: 75vw;
+        width: 75vw;
         height: 60vh;
     }
 }
+
+
+
+
+
+
+
