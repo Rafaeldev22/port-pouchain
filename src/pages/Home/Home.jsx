@@ -15,7 +15,7 @@ export default function Home() {
         <Link to="/alcas">
           <button>Alças</button>
         </Link>
-        <Link>
+        <Link to="/acabamento">
           <button>Acabamentos</button>
         </Link>
       </div>
