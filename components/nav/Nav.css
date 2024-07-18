@@ -31,6 +31,9 @@ nav{
         width: 10vw;
         margin-top: 0%;
     }
+    img:hover{
+       cursor: pointer;
+    }
 
     ul{
         display: flex;

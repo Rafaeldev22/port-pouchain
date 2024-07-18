@@ -12,7 +12,7 @@ export default function Home() {
         <Link to="/papeis">
           <button>Papeis</button>
         </Link>
-        <Link>
+        <Link to="/alcas">
           <button>Alças</button>
         </Link>
         <Link>

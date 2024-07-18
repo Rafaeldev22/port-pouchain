@@ -26,10 +26,6 @@
     border-top-right-radius: 17px;
     transition: .2s ease;
 }
-.image-logo-card:hover{
-    border-top-right-radius: 17px;
-    border-top-left-radius: 17px;
-}
 
 .titulo{
     align-self: center;
@@ -56,6 +52,11 @@ a:hover{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.card .image-logo-card:hover{
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
 }
 
 .box{
@@ -143,7 +144,7 @@ a:hover{
     }
 
     .box{
-        font-size: 0.98rem;
+        font-size: 0.97rem;
     }
 }
 
