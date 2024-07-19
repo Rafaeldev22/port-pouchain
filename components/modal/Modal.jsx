@@ -9,6 +9,9 @@ const modalVendas = ({ show, onClose }) => {
   return (
     <div className="capsula">
       <div className="princ-1">
+      <p onClick={onClose} className="fechar">
+          X
+        </p>
         <Link to="https://bit.ly/Rafa-zap" className="link">
           <div className="quadro">
             <img
@@ -45,9 +48,7 @@ const modalVendas = ({ show, onClose }) => {
             <h2>Elizabeth Albuquerque</h2>
           </div>
         </Link>
-        <p onClick={onClose} className="fechar">
-          X
-        </p>
+
       </div>
     </div>
   );

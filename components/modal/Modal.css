@@ -1,3 +1,19 @@
+.capsula{
+    background-color: rgba(39, 39, 39, 0.681);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9000;
+
+
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
 .princ-1{
     border: 0.5px solid #e4c33d9f;
     top: 84px;
@@ -5,13 +21,12 @@
     max-width: 400px;
     height: 458px;
     background-color: #000;
-    position: fixed;
 
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding: 50px 20px;
+    padding: 40px 20px;
     border-radius: 20px;
     /* margin-top: -5%; */
 }
@@ -21,13 +36,14 @@
     height: 110px;
     width: 370px;
     position: relative;
-    padding: 7px;
+    /* padding: 7px; */
     border-radius: 20px;
 
 
     display: flex;
     justify-content: flex-start;
     align-items:center ;
+    margin-bottom: 5px;
     gap: 30px;
 
     font-size: 0.9rem;
@@ -52,12 +68,13 @@
 }
 
 .fechar{
+    display: flex;
+    align-self: flex-end;
     color: red;
+    margin-top: -22px;
+    margin-bottom: 15px;
     font-weight: bold;
     font-size: 1.3rem;
-    position: absolute;
-    top: 15px;
-    right: 20px;
     cursor: pointer;
 }
 
@@ -76,21 +93,6 @@
     }
 }
 
-@media (max-width: 1366px){
-    .princ-1{
-        top:84px;
-        left:450px;
-        width: 400px;
-        height: 458px;
-    }
-
-    .quadro{
-        width: 370px;
-        height: 110px;
-    }
-
-}
-
 @media (max-width: 1024px){
     .princ-1{
         top:150px;
@@ -100,31 +102,52 @@
 
 @media (max-width: 768px){
     .princ-1{
-        top:120px;
-        left:180px;
-        width: 350px;
-        height: 330px;
+        width: 320px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        gap: -10px;
+    }
+
+    .quadro{
+        width: 300px;
+        height: 80px;
+        padding: 4px;
+    }
+
+    .img-vend{
+        width: 70px;
+        height: 70px;
+    }
+
+    .fechar{
+        margin-top: 2px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .princ-1{
+        width: 320px;
+        height: 350px;
         display: flex;
         justify-content: center;
     }
 
     .quadro{
         width: 300px;
-        height: 90px;
-    }
-}
-
-@media (max-width: 425px){
-    .princ-1{
-        top:180px;
-        left:40px;
-        width: 300px;
-        height: 390px;
+        height: 80px;
+        padding: 4px;
     }
 
-    .quadro{
-        width: 310px;
-        height: 95px;
+    .img-vend{
+        width: 70px;
+        height: 70px;
+    }
+
+    .fechar{
+        margin-top: 2px;
+        margin-bottom: 5px;
     }
 }
 
