@@ -4,7 +4,6 @@ import Home from "./pages/Home/Home";
 import Papeis from "./pages/papeis/Papeis";
 import Alcas from "./pages/alcas/Alcas";
 import Acabamento from "./pages/acabamento/Acabamento";
-import Pagina from "./pages/testeModal/Pagina";
 
 export const routes = createBrowserRouter([
   {
@@ -22,9 +21,5 @@ export const routes = createBrowserRouter([
   {
     path: "/acabamento",
     element: <Acabamento />,
-  },
-  {
-    path: "/modal",
-    element: <Pagina />,
   },
 ]);
