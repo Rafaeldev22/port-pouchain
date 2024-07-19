@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 
+// import Modal from '../../../components/modal/Modal'
+
 export default function Home() {
   return (
     <div className="container">
@@ -19,6 +21,8 @@ export default function Home() {
           <button>Acabamentos</button>
         </Link>
       </div>
+
+
     </div>
   );
 }

@@ -11,7 +11,7 @@ const papeis = [
         id:2,
         link1:"https://i.ibb.co/fpjBs5J/DUPLEX.png",
         titulo:"PAPEL DUPLEX",
-        descricao:"O papel cartão duplex é um tipo de papel com duas faces diferentes. Sendo um de seus lados bem clarinho, com textura mais lisa (além de possuir um tom levemente brilhoso). E o outro lado mais escuro, com sua textura bem áspera, completamente diferente do outro lado.",
+        descricao:"O papel cartão duplex é um tipo de papel com duas faces diferentes. Sendo um de seus lados bem clarinho, com textura mais lisa (além de possuir um tom levemente brilhoso). E o outro lado cor bege, com sua textura bem áspera, completamente diferente do outro lado.",
         info:"Gramatura: 180, 210, 300 ...",
         link:"",
     },
@@ -33,7 +33,7 @@ const papeis = [
     },
     {
         id:5,
-        link1:"https://i.ibb.co/2KrD1pV/COUCHE.png",
+        link1:"https://i.ibb.co/QdHfD37/COUCHE.png",
         titulo:"PAPEL COUCHÊ",
         descricao:"O papel couchê consiste em um papel base (geralmente, offset) que recebe uma camada de revestimento em ambos os lados, fazendo com que o papel adquira uma superfície lisa e uniforme. O papel couchê é, sem dúvidas, um dos mais utilizados pela indústria gráfica, e pelos clientes mais exigentes",
         info:"Gramatura: 180, 210, 300 ...",
